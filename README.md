@@ -1,3 +1,16 @@
+# Vue Activity Calendar
+
+面向 Vue 3 的可自定义活跃度日历组件，用于展示 GitHub 贡献图风格的热力日历。安装包使用方式及参数见下文。
+
+## 本仓库开发
+
+```bash
+npm ci
+npm run dev
+```
+
+组件源码位于 [src/components/ActivityCalendar.vue](src/components/ActivityCalendar.vue)，导出入口为 [src/components/index.js](src/components/index.js)。构建命令为 `npm run build`，其中包含 `vue-tsc` 检查。仓库开发命令与下方在其他项目中安装组件的方式分开使用。
+
 # 项目介绍
     本组件是面向Vue开发者的，一款类似于GitHub贡献日历图表的组件。
     
